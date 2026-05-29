@@ -1,0 +1,33 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# COCO 2017 dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco ← downloads here (20.1 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: coco # dataset root dir
+
+#数据集1
+train: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/train  # 118287 images
+val: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/val  # 5000 images
+test: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+#train: D:/ultralytics-main/ultralytics/datasets/defect/images/train  # 118287 images
+#val: D:/ultralytics-main/ultralytics/datasets/defect/images/val  # 5000 images
+#test: D:/ultralytics-main/ultralytics/datasets/defect/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+## number of classes
+nc: 6
+
+# Classes
+names:
+  0: Adenocarcinoma
+  1: High-grade IN
+  2: Low-grade IN
+  3: Normal
+  4: Polyp
+  5: Serrated adenoma
+
