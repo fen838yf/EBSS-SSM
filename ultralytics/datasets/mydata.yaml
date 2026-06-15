@@ -12,12 +12,9 @@
 #path: coco # dataset root dir
 
 #数据集1
-train: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/train  # 118287 images
-val: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/val  # 5000 images
-test: /mnt/e/ultralytics-main/ultralytics/datasets/dataset1/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
-#train: D:/ultralytics-main/ultralytics/datasets/defect/images/train  # 118287 images
-#val: D:/ultralytics-main/ultralytics/datasets/defect/images/val  # 5000 images
-#test: D:/ultralytics-main/ultralytics/datasets/defect/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+train: /mnt/e/EBSS-SSM/ultralytics/datasets/dataset1/images/train  # 118287 images
+val: /mnt/e/EBSS-SSM/ultralytics/datasets/dataset1/images/val  # 5000 images
+test: /mnt/e/EBSS-SSM/ultralytics/datasets/dataset1/images/test  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
 
 ## number of classes
 nc: 6
